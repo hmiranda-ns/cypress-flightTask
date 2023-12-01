@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.0"
+  },
+
+  "scripts": {
+    "cy:open": "cypress open -b chrome --e2e",
+    "cy:run": "cypress run -b chrome --e2e"
+  }
+}
